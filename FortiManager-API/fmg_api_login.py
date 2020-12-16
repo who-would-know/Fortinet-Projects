@@ -77,7 +77,7 @@ def fmg_login(hostAPIUSER, hostPASSWD, hostIP):
         #HTTP & JSON code & message
         print ('<-- HTTPcode: %d JSONmesg: %s' % (r.status_code, json_resp['result'][0]['status']['message']))
         print
-        #Exist Program, Username or Password is not valided or internal FortiManager error review Hcode & Jmesg
+        #Exit Program, Username or Password is not valided or internal FortiManager error review Hcode & Jmesg
         sys.exit(1)
 
 def fmg_logout(hostIP):
@@ -110,7 +110,7 @@ def fmg_logout(hostIP):
         print
     else:
         print ('<--Error Occured, check Hcode & Jmesg')
-        #Exist Program, internal FortiManager error review Hcode & Jmesg
+        #Exit Program, internal FortiManager error review Hcode & Jmesg
         print ('<-- HTTPcode: %d JSONmesg: %s' % (r.status_code, json_resp['result'][0]['status']['message']))
         print
         sys.exit(1)   
