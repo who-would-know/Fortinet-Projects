@@ -21,7 +21,7 @@ Summary: If features are not available on FortiManager, in this example Threat F
 
 ## FortiManager Pull Web Filter Profiles per ADOM and List Local & FortiGuard Categories with their Actions Example
 ### Date: 12-26-2020
-Code Filename: fmg_webprofile_cat_list-report.py
+Code Filename: fmg_webprofile_cat_list-report.py  
 Summary: Customers or Security Engineers might need to display and send (via Text,CSV) FortiManager ADOM(customer) 
          Web Filter Profile Local & FortiGuard Categories with their Actions - Block, Monitor, Warning, Allow, Authenication, etc.
          This example shows how to pull all Web Profiles in a ADOM, pull Local & FortiGuard Category Name+ID+Action, then
