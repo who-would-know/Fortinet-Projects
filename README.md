@@ -17,7 +17,7 @@ Code Filename: FortiManager/fmg_proxy_to_Threat-Feed-pull.py
 Summary: If features are not available on FortiManager, in this example Threat Feed  
          then you can Proxy FortiGate API calls via FortiManager without having to setup  
          and go directly to the FortiGate. This is also useful for install CERTS for SSL Inspection  
-         which exist locall on the FortiGate Device.  
+         which exist locally on the FortiGate Device.  
 
 ## FortiManager Pull Web Filter Profiles per ADOM and List Local & FortiGuard Categories with their Actions Example
 ### Date: 12-26-2020
