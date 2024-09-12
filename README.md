@@ -26,3 +26,9 @@ Summary: Customers or Security Engineers might need to display and send (via Tex
          Web Filter Profile Local & FortiGuard Categories with their Actions - Block, Monitor, Warning, Allow, Authenication, etc.
          This example shows how to pull all Web Profiles in a ADOM, pull Local & FortiGuard Category Name+ID+Action, then
          display them via Terminal, Text & CSV files.	 
+
+## FortiManager With FortiGate Device Name, returns VDOM to ADOM mappings
+### Date: 09-12-2024
+Code Filename: FMG_GET_ADOM-to-VDOM_Mapping.py  
+Summary: If you have a FortiGate with VDOMs and they are in different ADOMs, you might need to pull all the ADOM:VDOM mappings for example,  
+         you upgraded a FortiGate with VDOMs and now need to upgrade their ADOMs, you can run this to grab that list and then upgrade those ADOMs.  
