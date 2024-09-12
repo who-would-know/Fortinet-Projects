@@ -30,5 +30,5 @@ Summary: Customers or Security Engineers might need to display and send (via Tex
 ## FortiManager With FortiGate Device Name, returns VDOM to ADOM mappings
 ### Date: 09-12-2024
 Code Filename: FMG_GET_ADOM-to-VDOM_Mapping.py  
-Summary: If you have a FortiGate with VDOMs and they are in different ADOMs, you might need to pull all the ADOM:VDOM mappings for example,  
+Summary: If you have a FortiGate with VDOMs and they are in different ADOMs, you might need to pull all the ADOM:VDOM mappings for example, 
          you upgraded a FortiGate with VDOMs and now need to upgrade their ADOMs, you can run this to grab that list and then upgrade those ADOMs.  
